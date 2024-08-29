@@ -68,7 +68,7 @@ export class GameUI {
     document.getElementById('city-name').innerHTML = game.city.name;
     document.getElementById('population-counter').innerHTML = game.city.population;
 
-    const date = new Date('1/1/2023');
+    const date = new Date('1/1/2024');
     date.setDate(date.getDate() + game.city.simTime);
     document.getElementById('sim-time').innerHTML = date.toLocaleDateString();
   }
